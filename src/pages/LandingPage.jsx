@@ -25,10 +25,11 @@ function LandingPage() {
 
       <div className='container d-flex justify-content-center align-items-center mt-5 flex-column mb-5'>
         <h3>Features</h3>
-        <div className='d-flex justify-content-center align-items-center mt-5'>
+        <div className='row d-flex justify-content-evenly me-5'>
 
-        <Card className='p-4 m-3' style={{ width: '19rem' }}>
-      <Card.Img variant="top" style={{width:'100%', height:'300px'}} src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDJndHV5bW1qeHVydmQ0dGZnNXEycXJjOXo3YTBzYW45aTcweXcxciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/4oMoIbIQrvCjm/200.webp" />
+          <div className="col-md-4 px-4">
+          <Card className='p-4 m-3' style={{ width: '16rem', height:'600px' }}>
+          <Card.Img variant="top" style={{width:'100%', height:'300px'}} src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDJndHV5bW1qeHVydmQ0dGZnNXEycXJjOXo3YTBzYW45aTcweXcxciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/4oMoIbIQrvCjm/200.webp" />
       <Card.Body>
         <Card.Title className='text-center'>Managing Video</Card.Title>
         <Card.Text>
@@ -36,21 +37,25 @@ function LandingPage() {
           bulk of the card's content.
         </Card.Text>
       </Card.Body>
-    </Card>
+          </Card>
+          </div>
 
-    <Card className='p-4 m-3' style={{ width: '19rem' }}>
-      <Card.Img variant="top" style={{width:'100%', height:'300px'}} src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm5qNXZqM3Q3bXc5d294bWFjczFzbjJvZzFybG5obTZxcm5kcngyNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MF4gHGVeCOXAc/giphy.gif" />
+          <div className="col-md-4 px-4">
+          <Card className='p-4 m-3' style={{ width: '16rem',height:'600px'  }}>
+      <Card.Img variant="top" style={{width:'100%', height:'250px'}} src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm5qNXZqM3Q3bXc5d294bWFjczFzbjJvZzFybG5obTZxcm5kcngyNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MF4gHGVeCOXAc/giphy.gif" />
       <Card.Body>
-        <Card.Title className='text-center'>Categorized Video</Card.Title>
+        <Card.Title className='text-center'>Categorized</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
       </Card.Body>
-    </Card>
+          </Card>
+          </div>
 
-    <Card className='p-4 m-3'  style={{ width: '19rem' }}>
-      <Card.Img variant="top" style={{width:'100%', height:'300px'}} src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3d0NjJuY3o1MzdrdHNxMndzMjZtdW84NDlwa29ybTJlbnBvdXZ1NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tqfS3mgQU28ko/giphy.gif" />
+          <div className="col-md-4 px-4">
+          <Card className='p-4 m-3'  style={{ width: '16rem',height:'600px' }}>
+          <Card.Img variant="top" style={{width:'100%', height:'300px'}} src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3d0NjJuY3o1MzdrdHNxMndzMjZtdW84NDlwa29ybTJlbnBvdXZ1NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tqfS3mgQU28ko/giphy.gif" />
       <Card.Body>
         <Card.Title className='text-center'>Watch History</Card.Title>
         <Card.Text>
@@ -58,7 +63,13 @@ function LandingPage() {
           bulk of the card's content.
         </Card.Text>
       </Card.Body>
-    </Card>
+          </Card>
+          </div>
+
+      
+
+
+    
         </div>
       </div>
 
@@ -68,7 +79,7 @@ function LandingPage() {
        <div className="row">
         <div className="col-md-1"></div>
         <div className="col-md-10">
-        <div className="row border  rounded border-2 w-100 p-5">
+        <div className="row  w-100 p-5">
 
   <div className="col-md-5">
          <h2 style={{fontSize:'35px'}} className='text-warning' >Play What's You Need</h2>
