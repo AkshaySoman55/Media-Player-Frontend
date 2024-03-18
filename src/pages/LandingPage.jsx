@@ -28,7 +28,7 @@ function LandingPage() {
         <div className='row d-flex justify-content-evenly me-5'>
 
           <div className="col-md-4 px-4">
-          <Card className='p-4 m-3' style={{ width: '16rem', height:'600px' }}>
+          <Card className='p-4 m-3' style={{ width: '16rem' }}>
           <Card.Img variant="top" style={{width:'100%', height:'300px'}} src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDJndHV5bW1qeHVydmQ0dGZnNXEycXJjOXo3YTBzYW45aTcweXcxciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/4oMoIbIQrvCjm/200.webp" />
       <Card.Body>
         <Card.Title className='text-center'>Managing Video</Card.Title>
@@ -41,8 +41,8 @@ function LandingPage() {
           </div>
 
           <div className="col-md-4 px-4">
-          <Card className='p-4 m-3' style={{ width: '16rem',height:'600px'  }}>
-      <Card.Img variant="top" style={{width:'100%', height:'250px'}} src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm5qNXZqM3Q3bXc5d294bWFjczFzbjJvZzFybG5obTZxcm5kcngyNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MF4gHGVeCOXAc/giphy.gif" />
+          <Card className='p-4 m-3' style={{ width: '16rem'  }}>
+      <Card.Img variant="top" style={{width:'100%', height:'300px'}} src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm5qNXZqM3Q3bXc5d294bWFjczFzbjJvZzFybG5obTZxcm5kcngyNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MF4gHGVeCOXAc/giphy.gif" />
       <Card.Body>
         <Card.Title className='text-center'>Categorized</Card.Title>
         <Card.Text>
@@ -54,7 +54,7 @@ function LandingPage() {
           </div>
 
           <div className="col-md-4 px-4">
-          <Card className='p-4 m-3'  style={{ width: '16rem',height:'600px' }}>
+          <Card className='p-4 m-3'  style={{ width: '16rem' }}>
           <Card.Img variant="top" style={{width:'100%', height:'300px'}} src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3d0NjJuY3o1MzdrdHNxMndzMjZtdW84NDlwa29ybTJlbnBvdXZ1NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tqfS3mgQU28ko/giphy.gif" />
       <Card.Body>
         <Card.Title className='text-center'>Watch History</Card.Title>
