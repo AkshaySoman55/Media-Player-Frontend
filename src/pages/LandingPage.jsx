@@ -12,9 +12,9 @@ function LandingPage() {
       <Row className='d-flex justify-content align-items-center mt-5 mb-5'>
         <Col lg={1}></Col>
         <Col lg={5}>
-          <h3>Welcome to <span className='text-warning'>Media Player</span> </h3>
-          <p className='mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis labore, amet laboriosam atque necessitatibus consequatur vel nostrum. Omnis blanditiis </p>
-          <button onClick={()=>navigateByurl('/Home')} className='btn btn-warning mt-5'>Get Strated</button>
+          <h3 className='ms-3'>Welcome to <span className='text-warning'>Media Player</span> </h3>
+          <p className='mt-3 ms-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis labore, amet laboriosam atque necessitatibus consequatur vel nostrum. Omnis blanditiis </p>
+          <button  onClick={()=>navigateByurl('/Home')} className='btn btn-warning mt-5 ms-3'>Get Strated</button>
         </Col>
         <Col lg={1}></Col>
         <Col lg={5}>
